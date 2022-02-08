@@ -1,0 +1,109 @@
+.Login {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.login-form {
+  width: 100%;
+  flex: 0.4;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+  min-width: 400px;
+  margin-top: -50px;
+}
+
+.title {
+  font-size: 2.5rem;
+  font-weight: 800;
+  margin: 0;
+}
+
+.sub-title {
+  color: #1e3a57;
+  font-weight: 500;
+  font-size: 0.8rem;
+  margin: 0;
+}
+
+.input-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.input {
+  width: 75%;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 12px;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.submit {
+  width: 75%;
+  color: #fff;
+  background-color: #1e3a57;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+.submit:hover {
+  background-color: #4b6a83;
+}
+
+.info {
+  width: 75%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 12px;
+  font-size: 0.8rem;
+}
+
+.check {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.check > p {
+  margin: 1px 0 0 3px;
+  color: #1e3a57;
+}
+
+.forget {
+  text-decoration: none;
+  color: #1e3a57;
+  cursor: pointer;
+}
+
+.image {
+  flex: 0.6;
+  background-color: #1e3a57;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (max-width: 510px) {
+  .image {
+    display: none;
+  }
+  .Login {
+    align-items: center;
+  }
+  .login-form {
+    flex: 1;
+    min-width: none;
+  }
+}

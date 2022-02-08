@@ -1,0 +1,72 @@
+.Header {
+  width: 100%;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.5);
+}
+
+.logo {
+  display: flex;
+  font-size: 1.6rem;
+  font-weight: 900;
+  width: 250px;
+  margin-left: 60px;
+  color: #1e3a57;
+}
+
+.dot {
+  margin: 0 !important;
+  color: orange;
+  font-weight: 900;
+  font-size: 1.6rem;
+}
+
+.btn-container {
+  width: 300px;
+  display: flex;
+  align-items: center;
+  margin-right: 60px;
+}
+
+.btn {
+  width: 150px;
+  padding: 10px 7px;
+  color: #fff;
+  background-color: #1e3a57;
+  border: none;
+  font-weight: 600;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.btn:hover {
+  background-color: #4b6a83;
+}
+
+.login {
+  background-color: orange;
+  margin-left: 10px;
+}
+.login:hover {
+  background-color: rgb(243, 193, 99);
+}
+
+@media screen and (max-width: 700px) {
+  .logo {
+    margin-left: 30px;
+  }
+  .btn-container {
+    margin-right: 30px;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .btn-container {
+    display: none;
+  }
+  .logo {
+    margin-left: 50px;
+  }
+}
